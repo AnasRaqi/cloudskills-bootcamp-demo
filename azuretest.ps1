@@ -1,1 +1,5 @@
-az group create -l eastus -n test12241323
+$location = 'eastus'
+$name= 'test134'
+
+
+az group create -l $location -n $name
